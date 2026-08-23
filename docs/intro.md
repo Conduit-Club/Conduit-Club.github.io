@@ -53,7 +53,7 @@ description: 潮涌核心社 Minecraft 四服网络的中文服务器档案入�
   </a>
   <a className="cc-server-card" href="/create/">
     <span className="cc-server-card__number">03 / BUILD</span>
-    <h3>Create 机械服</h3>
+    <h3>Create 创造服</h3>
     <p>Paper 创造/地皮建筑服，使用 PlotSquared、FAWE 与 CoreProtect 管理作品。</p>
     <span className="cc-server-card__link">查看建筑说明 ↗</span>
   </a>

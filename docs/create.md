@@ -1,7 +1,7 @@
 ---
 id: create
-title: Create 机械服
-sidebar_label: Create 机械服
+title: Create 创造服
+sidebar_label: Create 创造服
 sidebar_position: 3
 description: Create 创造/地皮建筑服的配置、作品保护和常用命令。
 ---
