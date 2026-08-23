@@ -1,0 +1,13 @@
+[workspace]
+name = "conduit-club-minecraft-site"
+description = "Conduit Club Minecraft 服务器中文 Docusaurus 文档站"
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64", "osx-64"]
+
+[dependencies]
+nodejs = ">=20,<21"
+
+[tasks]
+start = "npm run start"
+build = "npm run build"
+check = "npm run build"
