@@ -1,0 +1,22 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "Moc_0.moc3",
+    "Textures": ["Textures_0_0.png"]
+  },
+  "Controllers": {
+    "EyeBlink": {
+      "Enabled": true
+    },
+    "MouseTracking": {
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    }
+  },
+  "HitAreas": [],
+  "Options": {
+    "TexFixed": true
+  }
+}

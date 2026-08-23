@@ -1,0 +1,39 @@
+{
+  "mouseover": [
+    {
+      "selector": "#live2d",
+      "text": [
+        "可以拖动角色调整位置。",
+        "需要换装时，可以点击右侧衣服按钮。",
+        "欢迎来到潮涌核心社。"
+      ]
+    },
+    {
+      "selector": "#waifu-tool-switch-texture",
+      "text": [
+        "随机换一套服装。"
+      ]
+    }
+  ],
+  "click": [
+    {
+      "selector": "#live2d",
+      "text": [
+        "今天也要好好休息。",
+        "喜欢现在的装束吗？",
+        "轻轻点一下就好啦。"
+      ]
+    }
+  ],
+  "seasons": [],
+  "time": [],
+  "message": {
+    "default": [
+      "欢迎来到潮涌核心社。",
+      "点击右侧衣服按钮可以随机换装。"
+    ],
+    "console": "这里是 Live2D 调试信息。",
+    "copy": "复制内容时请遵守原作者许可。",
+    "visibilitychange": "欢迎回来。"
+  }
+}

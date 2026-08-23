@@ -9,31 +9,51 @@ description: 潮涌核心社 Minecraft 四服网络的中文服务器档案入�
 
 <div className="cc-home-hero">
   <div className="cc-home-hero__copy">
-    <p className="cc-kicker">CONDUIT CLUB / MINECRAFT NETWORK</p>
-    <h1>四个世界，<br /><em>一条入口。</em></h1>
-    <p className="cc-lede">
-      这里是潮涌核心社的中文服务器档案。先了解每个服的用途，再从 Velocity 代理进入对应世界；命令、插件和更新均以已核验的服务器资料为准。
-    </p>
-    <div className="cc-actions">
-      <a className="button button--primary" href="/velocity/">查看四服详情 <span aria-hidden="true">↗</span></a>
-      <a className="button button--secondary" href="/commands/">命令速查 <span aria-hidden="true">↓</span></a>
-    </div>
+    <h1>来自五湖四海<br /><em>归于东海之滨</em></h1>
   </div>
   <div className="cc-home-hero__media">
-    <img src="/img/smp-server-icon.png" alt="SMP 服务器图标" />
-    <div>
-    <span className="cc-media-label">当前服务器人数</span>
-      <strong>Velocity → SMP / Create / SHOU</strong>
-      <small>人数读取失败时会显示“暂不可读取”，不会伪造在线人数。</small>
+    <div className="cc-screenshot-carousel" data-screenshot-carousel aria-label="服务器截图轮播">
+      <figure className="cc-screenshot-carousel__slide" data-active="true">
+        <img src="/img/screenshots/shou/campus-lake.jpg" alt="SHOU 建筑展示服校园湖畔" />
+        <figcaption className="cc-screenshot-carousel__caption">SHOU 校园湖畔</figcaption>
+      </figure>
+      <figure className="cc-screenshot-carousel__slide" data-active="false">
+        <img src="/img/screenshots/smp/spawn-plaza.jpg" alt="SMP 生存服出生点广场" />
+        <figcaption className="cc-screenshot-carousel__caption">SMP 出生点广场</figcaption>
+      </figure>
+      <figure className="cc-screenshot-carousel__slide" data-active="false">
+        <img src="/img/screenshots/create/spawn-statues.jpg" alt="Create 创造服出生点作品" />
+        <figcaption className="cc-screenshot-carousel__caption">Create 创造服作品</figcaption>
+      </figure>
+      <figure className="cc-screenshot-carousel__slide" data-active="false">
+        <img src="/img/screenshots/smp/spawn-statues.jpg" alt="SMP 生存服出生点像素雕塑" />
+        <figcaption className="cc-screenshot-carousel__caption">SMP 出生点雕塑</figcaption>
+      </figure>
+      <figure className="cc-screenshot-carousel__slide" data-active="false">
+        <img src="/img/screenshots/smp/spawn-waterfront.jpg" alt="SMP 生存服出生点水岸景观" />
+        <figcaption className="cc-screenshot-carousel__caption">SMP 水岸景观</figcaption>
+      </figure>
+      <figure className="cc-screenshot-carousel__slide" data-active="false">
+        <img src="/img/screenshots/smp/nether-beacon.jpg" alt="SMP 生存服地狱信标区域" />
+        <figcaption className="cc-screenshot-carousel__caption">SMP 地狱区域</figcaption>
+      </figure>
+      <figure className="cc-screenshot-carousel__slide" data-active="false">
+        <img src="/img/screenshots/smp/end-beacon.jpg" alt="SMP 生存服末地信标区域" />
+        <figcaption className="cc-screenshot-carousel__caption">SMP 末地区域</figcaption>
+      </figure>
+      <div className="cc-screenshot-carousel__controls">
+        <div className="cc-screenshot-carousel__dots" aria-label="选择截图">
+          <button className="cc-screenshot-carousel__dot" type="button" data-carousel-index="0" data-active="true" aria-label="显示第 1 张截图"></button>
+          <button className="cc-screenshot-carousel__dot" type="button" data-carousel-index="1" data-active="false" aria-label="显示第 2 张截图"></button>
+          <button className="cc-screenshot-carousel__dot" type="button" data-carousel-index="2" data-active="false" aria-label="显示第 3 张截图"></button>
+          <button className="cc-screenshot-carousel__dot" type="button" data-carousel-index="3" data-active="false" aria-label="显示第 4 张截图"></button>
+          <button className="cc-screenshot-carousel__dot" type="button" data-carousel-index="4" data-active="false" aria-label="显示第 5 张截图"></button>
+          <button className="cc-screenshot-carousel__dot" type="button" data-carousel-index="5" data-active="false" aria-label="显示第 6 张截图"></button>
+          <button className="cc-screenshot-carousel__dot" type="button" data-carousel-index="6" data-active="false" aria-label="显示第 7 张截图"></button>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-
-<div className="cc-stat-grid">
-  <div><strong>04</strong><span>服务节点</span></div>
-  <div><strong>01</strong><span>Velocity 入口</span></div>
-  <div><strong>03</strong><span>后端服务</span></div>
-  <div><strong>Discord</strong><span>更新来源</span></div>
 </div>
 
 ## 四服入口
@@ -43,25 +63,25 @@ description: 潮涌核心社 Minecraft 四服网络的中文服务器档案入�
     <span className="cc-server-card__number">01 / ENTRY</span>
     <h3>Velocity 代理服</h3>
     <p>统一入口，负责将玩家转发到三个后端世界。</p>
-    <span className="cc-server-card__link">查看入口配置 ↗</span>
+    <span className="cc-server-card__link">查看配置 ↗</span>
   </a>
   <a className="cc-server-card" href="/smp/">
     <span className="cc-server-card__number">02 / SURVIVAL</span>
     <h3>SMP 生存服</h3>
-    <p>Paper 生存世界，包含家点、传送、坐下、帽子与社区辅助功能。</p>
-    <span className="cc-server-card__link">查看生存说明 ↗</span>
+    <p>1.21.1 多人生存世界，</p>
+    <span className="cc-server-card__link">查看说明 ↗</span>
   </a>
   <a className="cc-server-card" href="/create/">
     <span className="cc-server-card__number">03 / BUILD</span>
-    <h3>Create 机械服</h3>
-    <p>Paper 创造/地皮建筑服，使用 PlotSquared、FAWE 与 CoreProtect 管理作品。</p>
-    <span className="cc-server-card__link">查看建筑说明 ↗</span>
+    <h3>Create 创造服</h3>
+    <p>1.21.11 地皮建筑服,随意创建你的作品吧</p>
+    <span className="cc-server-card__link">查看说明 ↗</span>
   </a>
-  <a className="cc-server-card" href="/showcase/">
+  <a className="cc-server-card" href="/shou/">
     <span className="cc-server-card__number">04 / SHOWCASE</span>
-    <h3>建筑展示服</h3>
-    <p>后端键名为 <code>shou</code>，以旁观模式承载作品参观与 BlueMap 展示。</p>
-    <span className="cc-server-card__link">查看展示说明 ↗</span>
+    <h3>SHOU 建筑还原展示服</h3>
+    <p>以旁观模式承载SHOU作品参观 以及携带 BlueMap 展示功能。</p>
+    <span className="cc-server-card__link">查看说明 ↗</span>
   </a>
 </div>
 
@@ -79,13 +99,3 @@ description: 潮涌核心社 Minecraft 四服网络的中文服务器档案入�
 后端连接由代理统一管理，不等同于客户端直连地址。公网域名、白名单、权限和开放时间以实际公告为准。
 
 :::
-
-## 服务器更新
-
-最近已核验的完整公告位于 [2026-07-17 更新记录](/updates/update-2026-07-17)，频道索引与 Discord 入口见[服务器更新](/updates)。
-
-<div className="cc-update-strip">
-  <span className="cc-update-strip__dot"></span>
-  <div><strong>更新源：Discord 服务器更新频道</strong><small>页面内容只收录已确认的公告，不把猜测写成最新状态。</small></div>
-  <a href="https://discord.com/channels/1481627208551501999/1504854748170293319" target="_blank" rel="noreferrer">打开频道 ↗</a>
-</div>

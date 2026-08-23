@@ -10,7 +10,7 @@ const discordInviteNavbarValue = DISCORD_INVITE_URL
 const config = {
   title: '潮涌核心社 · Minecraft 服务器档案',
   tagline: '四个世界，一条入口。',
-  favicon: 'img/velocity-server-icon.png',
+  favicon: 'img/brand/velocity-server-icon.png',
 
   url: 'https://conduit-club.github.io',
   baseUrl: '/',
@@ -49,7 +49,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/smp-server-icon.png',
+      image: 'img/brand/conduit-club-org-icon-256.png',
       metadata: [
         {
           name: 'description',
@@ -60,28 +60,24 @@ const config = {
         title: '潮涌核心社',
         logo: {
           alt: '潮涌核心社服务器图标',
-          src: 'img/velocity-server-icon.png',
+          src: 'img/brand/velocity-server-icon.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'clubSidebar',
-            position: 'left',
-            label: '服务器档案',
-          },
-          {to: '/updates', label: '更新日志', position: 'left'},
-          {
-            type: 'html',
-            value: discordInviteNavbarValue,
-            position: 'right',
-          },
+          {to: '/', label: '首页', position: 'left'},
+          {to: '/community/', label: '社团资源', position: 'left'},
+          {to: '/updates/update-2026-08-18/', label: '更新日志', position: 'left'},
           {
             type: 'html',
             value: '<button class="cc-qq-navbar-item" type="button" data-qq-group="756155087" aria-label="点击复制 QQ 群号 756155087" title="点击复制 QQ 群号"><span>QQ群</span> <code>756155087</code></button>',
             position: 'right',
           },
           {
-            href: 'https://github.com/Conduit-Club/Conduit-Club.github.io',
+            type: 'html',
+            value: discordInviteNavbarValue,
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/Conduit-Club',
             label: 'GitHub',
             position: 'right',
           },
@@ -95,13 +91,13 @@ const config = {
             items: [
               {label: '首页总览', to: '/'},
               {label: '四服详情', to: '/velocity/'},
-              {label: '命令速查', to: '/commands/'},
             ],
           },
           {
-            title: '更新与社区',
+            title: '社区',
             items: [
-              {label: '更新日志', to: '/updates'},
+              {label: '最新更新', to: '/updates/update-2026-08-18/'},
+              {label: '社团资源', to: '/community/'},
               {
                 label: 'Discord 更新频道',
                 href: 'https://discord.com/channels/1481627208551501999/1504854748170293319',
@@ -112,8 +108,8 @@ const config = {
         copyright: '潮涌核心社 · Minecraft 服务器档案。',
       },
       colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: false,
+        defaultMode: 'light',
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       },
       tableOfContents: {

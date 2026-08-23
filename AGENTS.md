@@ -12,6 +12,15 @@
 - 站点应延续文档式信息架构：首页总览、服务器详情、命令速查、素材、服务器更新；不要把四个服混成一个无边界的宣传页。
 - README 只保留项目简介和公开链接；详细内容维护在 `docs/`。
 
+## 目录结构
+
+- `docs/` 根目录只允许保留 `intro.md`，以及 `updates/`、`servers/`、`community/` 三个内容目录；不得在根目录新增其他 Markdown 页面。
+- Velocity、SMP、Create、SHOU 四个服务器文档统一放在 `docs/servers/`；对外路由继续使用 `/velocity/`、`/smp/`、`/create/`、`/shou/`，移动文件时必须保留对应 `slug`。
+- 日期更新统一放在 `docs/updates/`，文件名使用 `YYYY-MM-DD.md`；侧边栏按日期从新到旧排列，不新增无必要的重复索引数据文件。
+- 社团项目统一放在 `docs/community/`；总览和每个插件、Mod、服务或作品分别使用独立 Markdown 文件，侧边栏必须能够单独打开详情。
+- 公开图片统一放在 `assets/img/`：组织图标、Logo、服务器图标和 GIF 放入 `assets/img/brand/`，实机截图按服务器放入 `assets/img/screenshots/<server>/`。不要把新图片直接堆在 `assets/img/` 根目录。
+- 重命名或移动文档、图片后，必须同步更新 `sidebars.js`、`docusaurus.config.js` 和页面引用；删除素材前先确认全仓库没有有效引用。
+
 ## 服务器范围
 
 - 服务器只允许出现以下四类：Velocity 代理服、SMP 生存服、Create 机械服、建筑展示服。

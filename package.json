@@ -4,9 +4,10 @@
   "private": true,
   "description": "Conduit Club Minecraft 服务器中文 Docusaurus 文档站。",
   "scripts": {
-    "start": "docusaurus start --host 0.0.0.0 --port 4173",
-    "build": "docusaurus build",
-    "serve": "docusaurus serve --host 0.0.0.0 --port 4173"
+    "live2d:scan": "node generate-live2d-manifest.mjs",
+    "start": "npm run live2d:scan && docusaurus start --host 0.0.0.0 --port 4173",
+    "build": "npm run live2d:scan && docusaurus build",
+    "serve": "npm run live2d:scan && docusaurus serve --host 0.0.0.0 --port 4173"
   },
   "dependencies": {
     "@docusaurus/core": "^3.8.1",

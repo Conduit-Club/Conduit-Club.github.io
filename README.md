@@ -5,4 +5,4 @@
 - 网站：<https://conduit-club.github.io/>
 - GitHub：<https://github.com/Conduit-Club/Conduit-Club.github.io>
 - Discord：<https://discord.gg/knvDenYF5Y>
-- BlueMap：<https://shou.moear.de/>
+- BlueMap：<https://shou-show.moear.de/>

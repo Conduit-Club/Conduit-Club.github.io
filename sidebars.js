@@ -11,11 +11,21 @@ const sidebars = {
       label: '服务器介绍',
       collapsed: false,
       items: [
-        'velocity',
-        'smp',
-        'create',
-        'showcase',
-        'commands',
+        'servers/velocity',
+        'servers/smp',
+        'servers/create',
+        'servers/shou',
+      ],
+    },
+    {
+      type: 'category',
+      label: '社团资源',
+      collapsed: true,
+      items: [
+        'community/community-index',
+        'community/shou-campus',
+        'community/paper-ysm',
+        'community/discord-bot',
       ],
     },
     {
@@ -23,7 +33,6 @@ const sidebars = {
       label: '更新日志',
       collapsed: false,
       items: [
-        'updates/updates-index',
         'updates/update-2026-08-18',
         'updates/update-2026-07-17',
         'updates/update-2026-07-12',
