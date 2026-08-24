@@ -1528,14 +1528,25 @@ body::before {
   display: block;
   min-height: 620px;
   overflow: hidden;
-  padding: clamp(2rem, 7vw, 5.5rem) 0 3.5rem;
+  margin-top: 0;
+  padding: clamp(1.5rem, 3vw, 2.5rem) 0 3.5rem;
 }
 
 .cc-home-hero__copy {
   position: relative;
-  z-index: 1;
+  z-index: 3;
   max-width: 720px;
-  margin-left: clamp(1rem, 0vw, 2rem);
+  margin-left: clamp(2rem, 4vw, 4.5rem);
+}
+
+.cc-home-hero__copy h1 {
+  margin: 0;
+  font-size: clamp(2.8rem, 5.4vw, 5.7rem);
+  line-height: 0.98;
+}
+
+.docs-doc-id-intro .theme-doc-breadcrumbs {
+  display: none;
 }
 
 .cc-screenshot-carousel {
@@ -1713,6 +1724,11 @@ figure.cc-screenshot-carousel__slide::after {
   fill: #74313e !important;
 }
 
+#waifu-tool-switch-texture[data-live2d-switching='true'] {
+  pointer-events: none;
+  opacity: 0.45;
+}
+
 @media (max-width: 700px) {
   .cc-screenshot-carousel {
     min-height: 420px;
@@ -1724,7 +1740,7 @@ figure.cc-screenshot-carousel__slide::after {
 
   .cc-home-hero__copy {
     max-width: 100%;
-    margin-left: 1.25rem;
+    margin-left: 1.5rem;
   }
 
   #waifu {

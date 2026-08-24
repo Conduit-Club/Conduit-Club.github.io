@@ -5,11 +5,13 @@ title: 潮涌核心社服务器档案
 sidebar_label: 首页总览
 sidebar_position: 1
 description: 潮涌核心社 Minecraft 四服网络的中文服务器档案入口。
+hide_title: true
+hide_table_of_contents: true
 ---
 
 <div className="cc-home-hero">
   <div className="cc-home-hero__copy">
-    <h1>来自五湖四海<br /><em>归于东海之滨</em></h1>
+    <h1>五湖四海之士<br /><em>汇于东海之滨</em></h1>
   </div>
   <div className="cc-home-hero__media">
     <div className="cc-screenshot-carousel" data-screenshot-carousel aria-label="服务器截图轮播">
