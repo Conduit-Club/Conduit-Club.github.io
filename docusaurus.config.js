@@ -64,8 +64,14 @@ const config = {
         },
         items: [
           {to: '/', label: '首页', position: 'left'},
+          {to: '/server/', label: '服务器介绍', position: 'left'},
           {to: '/community/', label: '社团资源', position: 'left'},
-          {to: '/updates/update-2026-08-18/', label: '更新日志', position: 'left'},
+          {to: '/updates/', label: '更新日志', position: 'left'},
+          {
+            type: 'html',
+            value: '<span class="cc-velocity-navbar-status" data-velocity-status-host="smp.moear.de" data-state="loading"><span class="cc-velocity-navbar-status__label">服务器在线人数</span><strong data-velocity-count aria-live="polite">读取中…</strong></span>',
+            position: 'right',
+          },
           {
             type: 'html',
             value: '<button class="cc-qq-navbar-item" type="button" data-qq-group="756155087" aria-label="点击复制 QQ 群号 756155087" title="点击复制 QQ 群号"><span>QQ群</span> <code>756155087</code></button>',
@@ -90,13 +96,13 @@ const config = {
             title: '服务器档案',
             items: [
               {label: '首页总览', to: '/'},
-              {label: '四服详情', to: '/velocity/'},
+              {label: '服务器介绍', to: '/server/'},
             ],
           },
           {
             title: '社区',
             items: [
-              {label: '最新更新', to: '/updates/update-2026-08-18/'},
+              {label: '更新日志', to: '/updates/'},
               {label: '社团资源', to: '/community/'},
               {
                 label: 'Discord 更新频道',

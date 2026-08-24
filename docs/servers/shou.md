@@ -1,6 +1,6 @@
 ---
 id: shou
-slug: /shou
+slug: /servers/shou
 title: 建筑展示服
 sidebar_label: 建筑展示服
 sidebar_position: 4
@@ -40,7 +40,7 @@ shou.moear.de
 ## 参观提示
 
 - 该服默认为旁观模式，适合浏览作品和地图，不是主要建造服。
-- 建造与大范围编辑请前往 [Create 机械服](/create/)。
+- 建造与大范围编辑请前往 [Create 机械服](/servers/create/)。
 
 ## 图片展览
 

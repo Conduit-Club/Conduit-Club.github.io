@@ -11,6 +11,7 @@ const sidebars = {
       label: '服务器介绍',
       collapsed: false,
       items: [
+        'servers/server-index',
         'servers/velocity',
         'servers/smp',
         'servers/create',
@@ -33,6 +34,7 @@ const sidebars = {
       label: '更新日志',
       collapsed: false,
       items: [
+        'updates/updates-index',
         'updates/update-2026-08-18',
         'updates/update-2026-07-17',
         'updates/update-2026-07-12',

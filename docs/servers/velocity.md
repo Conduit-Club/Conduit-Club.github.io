@@ -1,6 +1,6 @@
 ---
 id: velocity
-slug: /velocity
+slug: /servers/velocity
 title: Velocity 代理服
 sidebar_label: Velocity 代理服
 sidebar_position: 1

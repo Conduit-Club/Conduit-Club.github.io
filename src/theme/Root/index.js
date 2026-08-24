@@ -61,6 +61,58 @@ export default function RootWrapper({children}) {
   }, []);
 
   useEffect(() => {
+    const statusRoots = Array.from(document.querySelectorAll('[data-velocity-status-host]'));
+    if (statusRoots.length === 0) return undefined;
+
+    const host = statusRoots[0].getAttribute('data-velocity-status-host');
+    let cancelled = false;
+    let timer;
+
+    async function updateVelocityCount() {
+      if (!host) return;
+      statusRoots.forEach((statusRoot) => {
+        statusRoot.dataset.state = 'loading';
+        const countNode = statusRoot.querySelector('[data-velocity-count]');
+        if (countNode) countNode.textContent = '读取中…';
+      });
+
+      try {
+        const response = await fetch(
+          `https://api.mcstatus.io/v2/status/java/${encodeURIComponent(host)}?query=false`,
+        );
+        if (!response.ok) throw new Error('status request failed');
+        const payload = await response.json();
+        const online = Number(payload?.players?.online);
+        const maximum = Number(payload?.players?.max);
+        if (!payload?.online || !Number.isFinite(online)) {
+          throw new Error('status payload unavailable');
+        }
+        if (cancelled) return;
+        statusRoots.forEach((statusRoot) => {
+          statusRoot.dataset.state = 'online';
+          const countNode = statusRoot.querySelector('[data-velocity-count]');
+          if (countNode) countNode.textContent = `${online} / ${Number.isFinite(maximum) ? maximum : '—'}`;
+        });
+      } catch {
+        if (cancelled) return;
+        statusRoots.forEach((statusRoot) => {
+          statusRoot.dataset.state = 'offline';
+          const countNode = statusRoot.querySelector('[data-velocity-count]');
+          if (countNode) countNode.textContent = '—';
+        });
+      }
+
+      if (!cancelled) timer = window.setTimeout(updateVelocityCount, 60_000);
+    }
+
+    updateVelocityCount();
+    return () => {
+      cancelled = true;
+      window.clearTimeout(timer);
+    };
+  }, []);
+
+  useEffect(() => {
     const instances = new Map();
 
     function mountCarousels() {

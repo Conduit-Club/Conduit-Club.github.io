@@ -1,6 +1,6 @@
 ---
 id: smp
-slug: /smp
+slug: /servers/smp
 title: SMP 生存服
 sidebar_label: SMP 生存服
 sidebar_position: 2

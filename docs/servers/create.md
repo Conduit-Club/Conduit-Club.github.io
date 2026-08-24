@@ -1,6 +1,6 @@
 ---
 id: create
-slug: /create
+slug: /servers/create
 title: Create 机械服
 sidebar_label: Create 机械服
 sidebar_position: 3

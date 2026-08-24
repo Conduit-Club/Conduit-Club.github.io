@@ -15,8 +15,8 @@
 ## 目录结构
 
 - `docs/` 根目录只允许保留 `intro.md`，以及 `updates/`、`servers/`、`community/` 三个内容目录；不得在根目录新增其他 Markdown 页面。
-- Velocity、SMP、Create、SHOU 四个服务器文档统一放在 `docs/servers/`；对外路由继续使用 `/velocity/`、`/smp/`、`/create/`、`/shou/`，移动文件时必须保留对应 `slug`。
-- 日期更新统一放在 `docs/updates/`，文件名使用 `YYYY-MM-DD.md`；侧边栏按日期从新到旧排列，不新增无必要的重复索引数据文件。
+- `docs/servers/index.md` 是四服总览，独占 `/server/` 路由；Velocity、SMP、Create、SHOU 四个详情页统一放在 `docs/servers/`，对外路由固定为 `/servers/velocity/`、`/servers/smp/`、`/servers/create/`、`/servers/shou/`。
+- `docs/updates/updates.md` 是更新日志总览，固定使用 `/updates/` 路由；日期更新统一放在 `docs/updates/`，文件名使用 `YYYY-MM-DD.md`，侧边栏按日期从新到旧排列。不得新增重复的 JSON 更新索引。
 - 社团项目统一放在 `docs/community/`；总览和每个插件、Mod、服务或作品分别使用独立 Markdown 文件，侧边栏必须能够单独打开详情。
 - 公开图片统一放在 `assets/img/`：组织图标、Logo、服务器图标和 GIF 放入 `assets/img/brand/`，实机截图按服务器放入 `assets/img/screenshots/<server>/`。不要把新图片直接堆在 `assets/img/` 根目录。
 - 重命名或移动文档、图片后，必须同步更新 `sidebars.js`、`docusaurus.config.js` 和页面引用；删除素材前先确认全仓库没有有效引用。

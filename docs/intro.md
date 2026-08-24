@@ -10,6 +10,14 @@ description: 潮涌核心社 Minecraft 四服网络的中文服务器档案入�
 <div className="cc-home-hero">
   <div className="cc-home-hero__copy">
     <h1>来自五湖四海<br /><em>归于东海之滨</em></h1>
+    <div className="cc-lede">
+      潮涌核心社是一群因 Minecraft 相聚的玩家、建筑者和开发者。我们维护长期服务器，记录共同创造的世界，也把运营中的经验沉淀为插件、机器人和开放项目。
+    </div>
+    <div className="cc-actions">
+      <a className="button button--primary" href="/server/">服务器 <span aria-hidden="true">↗</span></a>
+      <a className="button button--secondary" href="/community/">社团开发 <span aria-hidden="true">↗</span></a>
+      <a className="button button--secondary" href="/updates/">服务器更新日志 <span aria-hidden="true">↗</span></a>
+    </div>
   </div>
   <div className="cc-home-hero__media">
     <div className="cc-screenshot-carousel" data-screenshot-carousel aria-label="服务器截图轮播">
@@ -56,46 +64,16 @@ description: 潮涌核心社 Minecraft 四服网络的中文服务器档案入�
   </div>
 </div>
 
-## 四服入口
+## 我们在做什么
 
-<div className="cc-server-grid">
-  <a className="cc-server-card cc-server-card--entry" href="/velocity/">
-    <span className="cc-server-card__number">01 / ENTRY</span>
-    <h3>Velocity 代理服</h3>
-    <p>统一入口，负责将玩家转发到三个后端世界。</p>
-    <span className="cc-server-card__link">查看配置 ↗</span>
-  </a>
-  <a className="cc-server-card" href="/smp/">
-    <span className="cc-server-card__number">02 / SURVIVAL</span>
-    <h3>SMP 生存服</h3>
-    <p>1.21.1 多人生存世界，</p>
-    <span className="cc-server-card__link">查看说明 ↗</span>
-  </a>
-  <a className="cc-server-card" href="/create/">
-    <span className="cc-server-card__number">03 / BUILD</span>
-    <h3>Create 创造服</h3>
-    <p>1.21.11 地皮建筑服,随意创建你的作品吧</p>
-    <span className="cc-server-card__link">查看说明 ↗</span>
-  </a>
-  <a className="cc-server-card" href="/shou/">
-    <span className="cc-server-card__number">04 / SHOWCASE</span>
-    <h3>SHOU 建筑还原展示服</h3>
-    <p>以旁观模式承载SHOU作品参观 以及携带 BlueMap 展示功能。</p>
-    <span className="cc-server-card__link">查看说明 ↗</span>
-  </a>
-</div>
+服务器是社团成员共同游玩和创作的空间：有人在生存世界持续建设，有人在创造服打磨作品，也有人把校园与记忆留在建筑展示服中。
 
-## 连接关系
+社团开发则服务于这些真实需求。我们维护服务器插件、Discord 机器人、模型分发实验和网站文档，让已经解决的问题可以被记录、复用和继续改进。
 
-| 层级 | 配置名称 | 作用 | 进入命令 |
-| --- | --- | --- | --- |
-| 代理层 | `Velocity` | 统一入口与跨服转发 | 进入网络后使用 `/server ...` |
-| 后端 | `smp` | 多人生存服务器 | `/server smp` |
-| 后端 | `create` | 创造/地皮建筑服务器 | `/server create` |
-| 后端 | `shou` | 建筑展示服务器 | `/server shou` |
+这里不是一张只展示结果的宣传页。服务器规则、项目进度与每次更新都会留下清楚的文档，方便新成员了解，也方便后来者接续维护。
 
-:::warning 地址与权限
+## 从这里开始
 
-后端连接由代理统一管理，不等同于客户端直连地址。公网域名、白名单、权限和开放时间以实际公告为准。
-
-:::
+- 想加入游戏网络，请先查看 [服务器介绍](/server/)。
+- 想了解插件、机器人和校园作品，请前往 [社团开发](/community/)。
+- 想确认最近上线的内容，请查看 [服务器更新日志](/updates/)。
