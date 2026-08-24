@@ -1,3 +1,13 @@
+const fs = require('node:fs');
+const path = require('node:path');
+
+const updatesDirectory = path.join(__dirname, 'docs', 'updates');
+const datedUpdates = fs
+  .readdirSync(updatesDirectory)
+  .filter((fileName) => /^\d{4}-\d{2}-\d{2}\.md$/.test(fileName))
+  .sort((left, right) => right.localeCompare(left))
+  .map((fileName) => `updates/${path.basename(fileName, '.md')}`);
+
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   clubSidebar: [
@@ -35,10 +45,7 @@ const sidebars = {
       collapsed: false,
       items: [
         'updates/updates-index',
-        'updates/update-2026-08-18',
-        'updates/update-2026-07-17',
-        'updates/update-2026-07-12',
-        'updates/update-2026-05-15',
+        ...datedUpdates,
       ],
     },
   ],

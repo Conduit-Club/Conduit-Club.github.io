@@ -10,14 +10,6 @@ description: 潮涌核心社 Minecraft 四服网络的中文服务器档案入�
 <div className="cc-home-hero">
   <div className="cc-home-hero__copy">
     <h1>来自五湖四海<br /><em>归于东海之滨</em></h1>
-    <div className="cc-lede">
-      潮涌核心社是一群因 Minecraft 相聚的玩家、建筑者和开发者。我们维护长期服务器，记录共同创造的世界，也把运营中的经验沉淀为插件、机器人和开放项目。
-    </div>
-    <div className="cc-actions">
-      <a className="button button--primary" href="/server/">服务器 <span aria-hidden="true">↗</span></a>
-      <a className="button button--secondary" href="/community/">社团开发 <span aria-hidden="true">↗</span></a>
-      <a className="button button--secondary" href="/updates/">服务器更新日志 <span aria-hidden="true">↗</span></a>
-    </div>
   </div>
   <div className="cc-home-hero__media">
     <div className="cc-screenshot-carousel" data-screenshot-carousel aria-label="服务器截图轮播">
@@ -30,8 +22,8 @@ description: 潮涌核心社 Minecraft 四服网络的中文服务器档案入�
         <figcaption className="cc-screenshot-carousel__caption">SMP 出生点广场</figcaption>
       </figure>
       <figure className="cc-screenshot-carousel__slide" data-active="false">
-        <img src="/img/screenshots/create/spawn-statues.jpg" alt="Create 创造服出生点作品" />
-        <figcaption className="cc-screenshot-carousel__caption">Create 创造服作品</figcaption>
+        <img src="/img/screenshots/create/spawn-statues.jpg" alt="Create 创造建筑服出生点作品" />
+        <figcaption className="cc-screenshot-carousel__caption">Create 创造建筑服作品</figcaption>
       </figure>
       <figure className="cc-screenshot-carousel__slide" data-active="false">
         <img src="/img/screenshots/smp/spawn-statues.jpg" alt="SMP 生存服出生点像素雕塑" />
@@ -66,7 +58,7 @@ description: 潮涌核心社 Minecraft 四服网络的中文服务器档案入�
 
 ## 我们在做什么
 
-服务器是社团成员共同游玩和创作的空间：有人在生存世界持续建设，有人在创造服打磨作品，也有人把校园与记忆留在建筑展示服中。
+服务器是社团成员共同游玩和创作的空间：有人在 SMP 生存服持续建设，有人在 Create 创造建筑服打磨作品，也有人把校园与记忆留在 SHOU 建筑展示服中。
 
 社团开发则服务于这些真实需求。我们维护服务器插件、Discord 机器人、模型分发实验和网站文档，让已经解决的问题可以被记录、复用和继续改进。
 

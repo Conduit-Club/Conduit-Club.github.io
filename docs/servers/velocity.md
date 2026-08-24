@@ -67,7 +67,7 @@ MUA Union 与 LittleSkin 的认证地址不能混用。第三方账号默认作�
 | --- | --- | --- | --- |
 | `smp` | SMP 多人生存服务器 | 通过 Velocity 转发 | `smp.moear.de` |
 | `create` | Create 创造建筑服 | 通过 Velocity 转发 | `create.moear.de` |
-| `shou` | 建筑展示服 | 通过 Velocity 转发 | `shou.moear.de` |
+| `shou` | SHOU 建筑展示服 | 通过 Velocity 转发 | `shou.moear.de` |
 
 Velocity 配置中的默认尝试顺序是优先 `smp`。
 
@@ -97,8 +97,8 @@ Velocity 是代理层，没有独立世界画面。下面展示通过代理可�
     <figcaption>SMP 生存服</figcaption>
   </figure>
   <figure>
-    <img src="/img/screenshots/create/spawn-statues.jpg" alt="通过 Velocity 进入 Create 创造服后的作品场景" loading="lazy" />
-    <figcaption>Create 创造服</figcaption>
+    <img src="/img/screenshots/create/spawn-statues.jpg" alt="通过 Velocity 进入 Create 创造建筑服后的作品场景" loading="lazy" />
+    <figcaption>Create 创造建筑服</figcaption>
   </figure>
   <figure>
     <img src="/img/screenshots/shou/campus-lake.jpg" alt="通过 Velocity 进入 SHOU 建筑展示服后的校园场景" loading="lazy" />

@@ -1,15 +1,15 @@
 ---
 id: create
 slug: /servers/create
-title: Create 机械服
-sidebar_label: Create 机械服
+title: Create 创造建筑服
+sidebar_label: Create 创造建筑服
 sidebar_position: 3
 description: Create 创造/地皮建筑服的配置、作品保护和常用命令。
 ---
 
-# Create 创造服
+# Create 创造建筑服
 
-Create 服是用于创造、地皮和建筑制作的 Paper 后端。
+Create 创造建筑服是用于创造、地皮和建筑制作的 Paper 后端。
 
 进入方式：
 
@@ -62,7 +62,7 @@ WorldEdit 的命令根为 `/we`，别名包括 `/worldedit`、`/wep`、`/wep`；
 
 <div className="cc-screenshot-gallery">
   <figure>
-    <img src="/img/screenshots/create/spawn-statues.jpg" alt="Create 创造服出生点像素雕塑" loading="lazy" />
-    <figcaption>出生点附近的成员像素雕塑作品</figcaption>
+    <img src="/img/screenshots/create/spawn-statues.jpg" alt="Create 创造建筑服出生点像素雕塑" loading="lazy" />
+    <figcaption>出生点附近的成员像素雕塑作品,可是我觉得这很有格调啊</figcaption>
   </figure>
 </div>

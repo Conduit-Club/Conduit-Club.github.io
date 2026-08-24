@@ -27,11 +27,23 @@ smp.moear.de
 
 ## 功能
 
-### 坐下、帽子与睡眠
+### YSM 模型分发支持
+
+- SMP 服务器支持 YSM 模型分发，玩家可以在客户端装上YSM 模组2.6.5 后 在服务器上使用 YSM 模型。
+
+<div className="cc-screenshot-gallery">
+  <figure>
+    <img src="/img/screenshots/smp/ysm-model.jpg" alt="SMP 服务器YSM模型" loading="lazy" />
+    <figcaption>SMP服务器YSM模型</figcaption>
+  </figure>
+</div>
+
+- 可使用 `/ysm help` 查看 YSM 模型分发的帮助信息。
+
+### 坐下、帽子
 
 - 空手右键楼梯、台阶、地毯或雪层可以坐下，默认按 `Shift` 起身。
 - `/hat`：将手中的物品戴到头上。
-- 当前公告说明单人入睡即可跳过夜晚。
 
 ### mcmmo
 
@@ -73,8 +85,8 @@ smp.moear.de
 
 <div className="cc-screenshot-gallery">
   <figure>
-    <img src="/img/screenshots/smp/nether-beacon.jpg" alt="SMP 地狱信标与交通设施" loading="lazy" />
-    <figcaption>地狱信标与交通设施</figcaption>
+    <img src="/img/screenshots/smp/nether-beacon.jpg" alt="SMP 地狱猪人塔以及其配套的收集设施+猪灵交易站" loading="lazy" />
+    <figcaption>地狱猪人塔以及其配套的收集设施+猪灵交易站</figcaption>
   </figure>
 </div>
 

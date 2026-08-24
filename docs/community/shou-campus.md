@@ -23,8 +23,8 @@ description: 上海海洋大学校园 Minecraft 还原作品与世界存档介�
 
 ## 站内参观
 
-- 游戏内使用 `/server shou` 进入建筑展示服。
-- 在线地图入口见 [建筑展示服](/servers/shou/) 页面。
+- 游戏内使用 `/server shou` 进入 SHOU 建筑展示服。
+- 在线地图入口见 [SHOU 建筑展示服](/servers/shou/) 页面。
 
 <div className="cc-screenshot-gallery">
   <figure>

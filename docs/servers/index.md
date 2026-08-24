@@ -28,7 +28,7 @@ description: 潮涌核心社 Velocity、SMP、Create 与 SHOU 四服网络总览
   </a>
   <a className="cc-server-card" href="/servers/create/">
     <span className="cc-server-card__number">03 / BUILD</span>
-    <h3>Create 创造服</h3>
+    <h3>Create 创造建筑服</h3>
     <p>面向地皮建筑、创作测试和大型作品制作的创造世界。</p>
     <span className="cc-server-card__link">查看创造说明 ↗</span>
   </a>

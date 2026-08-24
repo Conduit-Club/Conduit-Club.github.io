@@ -1533,8 +1533,9 @@ body::before {
 
 .cc-home-hero__copy {
   position: relative;
-  z-index: 3;
+  z-index: 1;
   max-width: 720px;
+  margin-left: clamp(1rem, 0vw, 2rem);
 }
 
 .cc-screenshot-carousel {
@@ -1594,7 +1595,7 @@ figure.cc-screenshot-carousel__slide::after {
 .cc-screenshot-carousel__caption {
   position: absolute;
   right: 1rem;
-  bottom: 2.55rem;
+  bottom: 1rem;
   left: 1rem;
   z-index: 2;
   color: #fff9f3;
@@ -1723,6 +1724,7 @@ figure.cc-screenshot-carousel__slide::after {
 
   .cc-home-hero__copy {
     max-width: 100%;
+    margin-left: 1.25rem;
   }
 
   #waifu {
