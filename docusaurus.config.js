@@ -93,20 +93,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '服务器档案',
+            title: '友情链接',
             items: [
-              {label: '首页总览', to: '/'},
-              {label: '服务器介绍', to: '/server/'},
-            ],
-          },
-          {
-            title: '社区',
-            items: [
-              {label: '更新日志', to: '/updates/'},
-              {label: '社团资源', to: '/community/'},
               {
-                label: 'Discord 更新频道',
-                href: 'https://discord.com/channels/1481627208551501999/1504854748170293319',
+                label: 'Moear的个人博客',
+                href: 'https://moeary.github.io/',
+              },
+              {
+                label: 'wuhong学长的计算机复习笔记',
+                href: 'https://note.peteralbus.com/',
               },
             ],
           },
