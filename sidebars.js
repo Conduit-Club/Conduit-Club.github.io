@@ -35,6 +35,7 @@ const sidebars = {
       items: [
         'community/community-index',
         'community/shou-campus',
+        'community/shou-freshman-manual',
         'community/paper-ysm',
         'community/discord-bot',
       ],
