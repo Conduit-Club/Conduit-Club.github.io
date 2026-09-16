@@ -18,6 +18,12 @@ const config = {
   projectName: 'Conduit-Club.github.io',
   staticDirectories: ['assets'],
 
+  // 站点只发布简体中文默认版本，不提供语言切换或其他 locale 路由。
+  i18n: {
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
+  },
+
   trailingSlash: true,
   onBrokenLinks: 'throw',
   markdown: {
@@ -46,6 +52,24 @@ const config = {
     ],
   ],
 
+  themes: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
+      ({
+        // 在构建时生成本地索引，不依赖外部搜索服务或账号。
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: '/',
+        language: ['zh'],
+        searchBarPosition: 'left',
+        highlightSearchTermsOnTargetPage: true,
+      }),
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -67,6 +91,7 @@ const config = {
           {to: '/server/', label: '服务器介绍', position: 'left'},
           {to: '/community/', label: '社团资源', position: 'left'},
           {to: '/updates/', label: '更新日志', position: 'left'},
+          {type: 'search', position: 'left'},
           {
             type: 'html',
             value: '<span class="cc-velocity-navbar-status" data-velocity-status-host="smp.moear.de" data-state="loading"><span class="cc-velocity-navbar-status__label">服务器在线人数</span><strong data-velocity-count aria-live="polite">读取中…</strong></span>',
@@ -102,6 +127,10 @@ const config = {
               {
                 label: 'wuhong学长的计算机复习笔记',
                 href: 'https://note.peteralbus.com/',
+              },
+              {
+                label: '水专手册',
+                href: 'https://shou-online-guide.vercel.app/',
               },
             ],
           },
