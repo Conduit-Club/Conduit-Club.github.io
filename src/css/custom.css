@@ -200,10 +200,12 @@ body::before {
   gap: 0.85rem;
 }
 
-.navbar__items--right > *,
-.navbar__items--right .navbar__link {
-  display: inline-flex;
-  align-items: center;
+@media (min-width: 997px) {
+  .navbar__items--right > *,
+  .navbar__items--right .navbar__link {
+    display: inline-flex;
+    align-items: center;
+  }
 }
 
 .navbar__items--right .navbar__link {
@@ -243,12 +245,8 @@ body::before {
 }
 
 .docSidebarContainer {
-  position: sticky;
-  top: var(--ifm-navbar-height);
-  height: calc(100vh - var(--ifm-navbar-height));
   border-right: 1px solid var(--cc-line);
   background: rgba(6, 15, 9, 0.72);
-  overflow-y: auto;
   scrollbar-color: var(--cc-line-strong) transparent;
   scrollbar-width: thin;
 }
@@ -258,8 +256,6 @@ body::before {
 }
 
 .theme-doc-sidebar-container {
-  position: static;
-  height: auto;
   border: 0;
   background: transparent;
 }
@@ -826,11 +822,6 @@ body::before {
 
 @media (max-width: 996px) {
   .docSidebarContainer {
-    position: static;
-    height: auto;
-  }
-
-  .docSidebarContainer {
     border-right: 0;
   }
 
@@ -967,7 +958,7 @@ body::before {
 .navbar {
   position: sticky;
   top: 0;
-  z-index: 20;
+  z-index: var(--ifm-z-index-fixed);
   border-bottom: 2px solid var(--cc-line);
   background: rgba(253, 249, 243, 0.94);
   box-shadow: 0 4px 0 rgba(93, 69, 62, 0.04);
@@ -1749,4 +1740,148 @@ figure.cc-screenshot-carousel__slide::after {
     transform-origin: bottom right;
   }
 
+}
+
+/* 导航响应式约束：布局和抽屉切换仍由 Docusaurus 主题负责。 */
+.navbar {
+  --ifm-navbar-search-input-background-color: var(--cc-panel);
+  --ifm-navbar-search-input-color: var(--cc-text);
+  --ifm-navbar-search-input-placeholder-color: var(--cc-faint);
+  --search-local-modal-background: var(--cc-panel);
+  --search-local-hit-background: var(--cc-panel-2);
+  --search-local-hit-color: var(--cc-text);
+  --search-local-hit-active-color: var(--cc-bg);
+  --search-local-highlight-color: var(--cc-acid);
+  --search-local-muted-color: var(--cc-muted);
+}
+
+.navbar__items {
+  min-width: 0;
+}
+
+.navbar__items:not(.navbar__items--right) {
+  min-width: 0;
+}
+
+.navbar__items:not(.navbar__items--right) .navbar__brand {
+  min-width: 0;
+  margin-right: 0.5rem;
+}
+
+.navbar__logo {
+  flex: 0 0 auto;
+}
+
+.navbar__items:not(.navbar__items--right) .navbar__title {
+  min-width: 0;
+}
+
+.navbar__items:not(.navbar__items--right) .navbar__search {
+  min-width: 0;
+  margin-left: 0.35rem;
+  flex: 0 1 auto;
+}
+
+.navbar__search-input {
+  max-width: 100%;
+  border: 1px solid var(--cc-line-strong);
+  color: var(--cc-text);
+  background-color: var(--cc-panel);
+}
+
+.navbar__search-input::placeholder {
+  color: var(--cc-faint);
+}
+
+.navbar__search-input:focus {
+  border-color: var(--cc-acid);
+  outline: 2px solid color-mix(in srgb, var(--cc-acid) 28%, transparent);
+  outline-offset: 1px;
+}
+
+/* 移动端目录使用主题自带的双页抽屉；这里只保证内容能收缩并换行。 */
+.navbar-sidebar {
+  background: var(--cc-bg);
+}
+
+.navbar-sidebar,
+.navbar-sidebar__item,
+.navbar-sidebar__item .menu,
+.navbar-sidebar__item .menu__list,
+.navbar-sidebar .menu__link,
+.navbar-sidebar .menu__list-item-collapsible {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.navbar-sidebar__item,
+.navbar-sidebar__item .menu {
+  overflow-x: hidden;
+}
+
+.navbar-sidebar .menu__link,
+.navbar-sidebar .menu__list-item-collapsible {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  line-height: 1.5;
+}
+
+.navbar-sidebar__back {
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 996px) {
+  .navbar {
+    /* backdrop-filter 会为原生 fixed 抽屉建立错误的包含块，移动端必须还原视口定位。 */
+    backdrop-filter: none;
+  }
+
+  .navbar__inner {
+    flex-wrap: nowrap;
+  }
+
+  .navbar__items:not(.navbar__items--right) {
+    flex: 1 1 auto;
+    flex-wrap: nowrap;
+  }
+
+  .navbar__items:not(.navbar__items--right) .navbar__toggle {
+    flex: 0 0 auto;
+  }
+
+  .navbar__items:not(.navbar__items--right) .navbar__brand {
+    flex: 0 1 auto;
+    overflow: hidden;
+  }
+
+  .navbar__items:not(.navbar__items--right) .navbar__title {
+    max-width: clamp(7rem, 34vw, 13rem);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .navbar__items:not(.navbar__items--right) .navbar__search {
+    flex: 0 1 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar__items:not(.navbar__items--right) .navbar__title {
+    max-width: 8rem;
+  }
+
+  .navbar__items:not(.navbar__items--right) .navbar__search-input:focus {
+    width: min(12.5rem, calc(100vw - 11rem));
+  }
+
+  .navbar__search [class*='dropdownMenu'] {
+    right: -0.5rem !important;
+    width: min(22rem, calc(100vw - 1rem));
+    max-width: calc(100vw - 1rem);
+  }
 }
