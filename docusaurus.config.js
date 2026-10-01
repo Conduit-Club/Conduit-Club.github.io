@@ -130,7 +130,7 @@ const config = {
               },
               {
                 label: '水专手册',
-                href: 'https://shou-online-guide.vercel.app/',
+                href: 'https://manual.shoumc.com/',
               },
             ],
           },
