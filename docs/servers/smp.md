@@ -19,11 +19,13 @@ SMP 是潮涌核心社的多人生存世界。
 /server smp
 ```
 
-或者直接通过URL进入
+也可以在 Minecraft 多人游戏中直接填写：
 
 ```mc
-smp.moear.de
+smp.shoumc.com
 ```
+
+原入口 `smp.moear.de` 继续可用，无需填写端口。
 
 ## 功能
 

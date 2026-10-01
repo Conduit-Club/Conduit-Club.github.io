@@ -17,11 +17,13 @@ Create 创造建筑服是用于创造、地皮和建筑制作的 Paper 后端。
 /server create
 ```
 
-或者直接通过URL进入
+也可以在 Minecraft 多人游戏中直接填写：
 
 ```mc
-create.moear.de
+create.shoumc.com
 ```
+
+原入口 `create.moear.de` 继续可用，无需填写端口。
 
 ## 常用命令
 

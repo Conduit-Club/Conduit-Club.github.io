@@ -11,3 +11,9 @@ nodejs = ">=20,<21"
 start = "npm run start"
 build = "npm run build"
 check = "npm run build"
+
+[feature.cloudflare.dependencies]
+nodejs = ">=22,<23"
+
+[environments]
+cloudflare = { features = ["cloudflare"], no-default-feature = true }

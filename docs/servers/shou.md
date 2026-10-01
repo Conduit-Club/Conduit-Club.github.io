@@ -17,23 +17,25 @@ SHOU 建筑展示服用于参观已完成的作品。
 /server shou
 ```
 
-或者直接通过URL进入
+也可以在 Minecraft 多人游戏中直接填写：
 
 ```mc
-shou.moear.de
+shou.shoumc.com
 ```
+
+原入口 `shou.moear.de` 继续可用，无需填写端口。
 
 ## BlueMap 在线地图
 
 <div className="cc-bluemap-frame">
-  <iframe src="https://shou-show.moear.de/" title="SHOU BlueMap 建筑展示地图" loading="lazy" referrerPolicy="no-referrer" />
+  <iframe src="https://map.shoumc.com/" title="SHOU BlueMap 建筑展示地图" loading="lazy" referrerPolicy="no-referrer" />
 </div>
 
 <div className="cc-embed-note">
-  如果页面为空，请点击下方链接在新标签页打开；也可能是 BlueMap 的页面策略或您设备商的WebGPU渲染限制导致嵌入被阻止。
+  如果地图未显示，请在新标签页打开，并检查浏览器是否启用了硬件加速。
 </div>
 
-<p><a href="https://shou-show.moear.de/" target="_blank" rel="noreferrer">在新标签页打开 BlueMap ↗</a></p>
+<p><a href="https://map.shoumc.com/" target="_blank" rel="noreferrer">在新标签页打开 BlueMap ↗</a></p>
 
 ## 参观提示
 
