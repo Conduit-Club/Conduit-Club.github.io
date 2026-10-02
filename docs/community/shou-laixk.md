@@ -15,6 +15,8 @@ description: 上海海洋大学课程与教师评价查询入口，以及来选�
 - **原站入口**：[lxk.aaron212.com](https://lxk.aaron212.com/)
 - **相关资料仓库**：[Conduit-Club/StructureAnalysis-shou-laixk](https://github.com/Conduit-Club/StructureAnalysis-shou-laixk)
 
+当前社团访问入口为 `lxk.shoumc.com`；登录、注册会按页面提示跳转至原站。域名迁移说明见[2026.10.02 更新记录](../../updates/2026-10-02/)。
+
 ## 使用说明
 
 ![来选课首页，展示课程搜索与热门课程列表](/img/screenshots/community/laixk.jpg)

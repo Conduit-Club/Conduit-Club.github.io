@@ -23,7 +23,7 @@ SHOU 建筑展示服用于参观已完成的作品。
 shou.shoumc.com
 ```
 
-原入口 `shou.moear.de` 继续可用，无需填写端口。
+当前连接请优先改用 `shou.shoumc.com`。
 
 ## BlueMap 在线地图
 
