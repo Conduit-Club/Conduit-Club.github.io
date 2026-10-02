@@ -12,7 +12,7 @@ const config = {
   tagline: '四个世界，一条入口。',
   favicon: 'img/brand/velocity-server-icon.png',
 
-  url: 'https://conduit-club.github.io',
+  url: process.env.SITE_URL || 'https://conduit-club.github.io',
   baseUrl: '/',
   organizationName: 'Conduit-Club',
   projectName: 'Conduit-Club.github.io',
@@ -94,7 +94,7 @@ const config = {
           {type: 'search', position: 'left'},
           {
             type: 'html',
-            value: '<span class="cc-velocity-navbar-status" data-velocity-status-host="smp.moear.de" data-state="loading"><span class="cc-velocity-navbar-status__label">服务器在线人数</span><strong data-velocity-count aria-live="polite">读取中…</strong></span>',
+            value: '<span class="cc-velocity-navbar-status" data-velocity-status-host="smp.shoumc.com" data-state="loading"><span class="cc-velocity-navbar-status__label">服务器在线人数</span><strong data-velocity-count aria-live="polite">读取中…</strong></span>',
             position: 'right',
           },
           {
@@ -130,7 +130,7 @@ const config = {
               },
               {
                 label: '水专手册',
-                href: 'https://shou-online-guide.vercel.app/',
+                href: 'https://manual.shoumc.com/',
               },
             ],
           },

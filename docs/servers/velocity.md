@@ -63,11 +63,13 @@ MUA Union 与 LittleSkin 的认证地址不能混用。第三方账号默认作�
 
 ## 后端映射
 
-| 后端键名 | 目标 | 连接方式 | 强制域名 |
+| 后端键名 | 目标 | 公开入口 | 兼容入口 |
 | --- | --- | --- | --- |
-| `smp` | SMP 多人生存服务器 | 通过 Velocity 转发 | `smp.moear.de` |
-| `create` | Create 创造建筑服 | 通过 Velocity 转发 | `create.moear.de` |
-| `shou` | SHOU 建筑展示服 | 通过 Velocity 转发 | `shou.moear.de` |
+| `smp` | SMP 多人生存服务器 | `smp.shoumc.com` | `smp.moear.de` |
+| `create` | Create 创造建筑服 | `create.shoumc.com` | `create.moear.de` |
+| `shou` | SHOU 建筑展示服 | `shou.shoumc.com` | `shou.moear.de` |
+
+在 Minecraft 多人游戏中填写任一入口即可，无需填写端口。新旧入口共同连接同一套服务器。
 
 Velocity 配置中的默认尝试顺序是优先 `smp`。
 
