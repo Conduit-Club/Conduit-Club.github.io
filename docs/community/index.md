@@ -14,7 +14,9 @@ description: 潮涌核心社成员维护或创造的插件、服务与 Minecraft
 ## 项目列表
 
 - [SHOU 校园还原工程](./shou-campus)：Minecraft 校园建筑与世界存档。
-- [SHOU Freshman 手册](./shou-freshman-manual)：面向水专学生与校友的在线信息手册，目前正在建设。
+- [水专手册](./shou-freshman-manual)：校园生活与常用信息指南，[在线阅读](https://manual.shoumc.com/)。
+- [今天吃什么](./what-to-eat)：校园及周边餐饮、同学评价与投稿，[在线使用](https://eat.shoumc.com/)。
+- [来选课](./shou-laixk)：由其他维护者维护的课程与教师评价服务，[访问入口](https://lxk.shoumc.com/)；社团同时维护相关分析与归档资料。
 - [Paper-YSM](./paper-ysm)：Paper 服务端的 Yes Steve Model 分发原型。
 - [Discord 娱乐机器人](./discord-bot)：Discord Bot、FastAPI 控制台与 Minecraft 聊天桥。
 

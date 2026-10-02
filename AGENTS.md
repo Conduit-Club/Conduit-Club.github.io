@@ -55,3 +55,10 @@
 - 保留与任务无关的现有修改；不得执行 `git reset --hard`、强制覆盖、删除用户文件、提交、推送或部署，除非用户明确要求。
 - 修改后至少运行 `pixi run check`；涉及启动流程时还要实际运行 `pixi run start` 并请求首页、Docusaurus 资源和至少一个 Markdown 文档，确认 HTTP 成功。
 - 不得为了视觉效果引入外部 CDN 字体、不可审计的远程脚本或必须联网才能显示的核心内容。
+
+## 双站与 PR 预览
+
+- `main` 发布至 GitHub Pages 和 Cloudflare Pages；`www.shoumc.com`、`wiki.shoumc.com` 绑定同一个 Pages 项目，站内链接使用相对路径以保留访问域名。
+- `preview.yml` 在提交或更新面向 `main` 的 PR 时构建。仓库内分支发布到独立的 `pr-<编号>` Pages 预览分支，链接显示在 Actions 摘要和部署环境；不会覆盖生产分支。外部 fork 只构建并保存产物，不读取部署 Secret。
+- 构建 job 不注入 Cloudflare 凭据；发布 job 只下载静态产物。沿用仓库的 `CLOUDFLARE_PAGES_API_TOKEN` Secret 及 `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_PAGES_PROJECT` Variables。
+- `assets/img/screenshots/community/` 保存校园服务公开页面实拍，详情页注明采集日期；不得用开发样本或后台页面冒充线上截图。

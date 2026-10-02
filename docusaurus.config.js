@@ -132,6 +132,14 @@ const config = {
                 label: '水专手册',
                 href: 'https://manual.shoumc.com/',
               },
+              {
+                label: '今天吃什么',
+                href: 'https://eat.shoumc.com/',
+              },
+              {
+                label: '来选课',
+                href: 'https://lxk.shoumc.com/',
+              },
             ],
           },
         ],

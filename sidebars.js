@@ -36,6 +36,8 @@ const sidebars = {
         'community/community-index',
         'community/shou-campus',
         'community/shou-freshman-manual',
+        'community/what-to-eat',
+        'community/shou-laixk',
         'community/paper-ysm',
         'community/discord-bot',
       ],
