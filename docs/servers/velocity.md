@@ -11,6 +11,8 @@ description: Conduit Club 网络入口、后端名称与跨服命令。
 
 Velocity 是 Conduit Club 的统一入口。
 
+连接服务器时请优先填写 `smp.shoumc.com`、`create.shoumc.com` 或 `shou.shoumc.com`。站点主域名 `shoumc.com` 用于网页访问和跳转，不要将网页域名当作 Minecraft 服务器地址。
+
 ## 认证
 
 当前 Velocity 代理服使用微软正版账户 / MUA Union / Littleskin 登录，后端服务器无需单独处理在线认证。
@@ -63,13 +65,13 @@ MUA Union 与 LittleSkin 的认证地址不能混用。第三方账号默认作�
 
 ## 后端映射
 
-| 后端键名 | 目标 | 公开入口 | 兼容入口 |
+| 后端键名 | 目标 | 推荐入口 | 历史记录 |
 | --- | --- | --- | --- |
 | `smp` | SMP 多人生存服务器 | `smp.shoumc.com` | `smp.moear.de` |
 | `create` | Create 创造建筑服 | `create.shoumc.com` | `create.moear.de` |
 | `shou` | SHOU 建筑展示服 | `shou.shoumc.com` | `shou.moear.de` |
 
-在 Minecraft 多人游戏中填写任一入口即可，无需填写端口。新旧入口共同连接同一套服务器。
+在 Minecraft 多人游戏中请优先填写推荐入口；旧入口仅作既有文档中的历史记录。
 
 Velocity 配置中的默认尝试顺序是优先 `smp`。
 

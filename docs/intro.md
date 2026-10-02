@@ -66,8 +66,14 @@ hide_table_of_contents: true
 
 这里不是一张只展示结果的宣传页。服务器规则、项目进度与每次更新都会留下清楚的文档，方便新成员了解，也方便后来者接续维护。
 
+## 主站与常用入口
+
+社团主站现在使用 [shoumc.com](https://shoumc.com/)，打开后会保留路径和参数并 301 跳转到 `conduit-club.github.io`。[www.shoumc.com](https://www.shoumc.com/) 保留为 Cloudflare Pages 官网副本。
+
+连接服务器时请优先使用 `smp.shoumc.com`、`create.shoumc.com` 或 `shou.shoumc.com`。社团配套入口包括：[今天吃什么](https://eat.shoumc.com/)、[水专手册](https://manual.shoumc.com/)、[来选课](https://lxk.shoumc.com/) 和 [BlueMap 在线地图](https://map.shoumc.com/)；评论服务可打开 [Artalk 评论入口](https://comments.shoumc.com/)。详见[本次迁移记录](./updates/2026-10-02/)。
+
 ## 从这里开始
 
-- 想加入游戏网络，请先查看 [服务器介绍](/server/)。
-- 想了解插件、机器人和校园作品，请前往 [社团开发](/community/)。
-- 想确认最近上线的内容，请查看 [服务器更新日志](/updates/)。
+- 想加入游戏网络，请先查看 [服务器介绍](./server/)。
+- 想了解插件、机器人和校园作品，请前往 [社团资源](./community/)。
+- 想确认最近上线的内容，请查看 [服务器更新日志](./updates/)。

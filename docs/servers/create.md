@@ -23,7 +23,7 @@ Create 创造建筑服是用于创造、地皮和建筑制作的 Paper 后端。
 create.shoumc.com
 ```
 
-原入口 `create.moear.de` 继续可用，无需填写端口。
+当前连接请优先改用 `create.shoumc.com`。
 
 ## 常用命令
 

@@ -14,6 +14,8 @@ description: 上海海洋大学校园及周边餐饮站点，提供餐品、店�
 - **在线使用**：[eat.shoumc.com](https://eat.shoumc.com/)
 - **项目仓库**：[Conduit-Club/what-to-eat-in-shou-today-done-right](https://github.com/Conduit-Club/what-to-eat-in-shou-today-done-right)
 
+当前社团入口为 `eat.shoumc.com`，页面、投稿与审核入口均从该站点进入。域名迁移说明见[2026.10.02 更新记录](../../updates/2026-10-02/)。
+
 ## 可以做什么
 
 ![今天吃什么首页，展示餐品筛选与随机推荐](/img/screenshots/community/eat.jpg)

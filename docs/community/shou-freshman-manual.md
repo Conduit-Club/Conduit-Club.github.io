@@ -14,6 +14,8 @@ description: 面向上海海洋大学学生、教师与校友的校园生活手�
 - **在线阅读**：[manual.shoumc.com](https://manual.shoumc.com/)
 - **项目仓库**：[Conduit-Club/SHOU-Online-Manual](https://github.com/Conduit-Club/SHOU-Online-Manual)
 
+当前手册入口为 `manual.shoumc.com`，评论可在手册页面使用。域名迁移说明见[2026.10.02 更新记录](../../updates/2026-10-02/)。
+
 ## 当前状态
 
 ![水专手册首页，展示栏目导航与校园常用入口](/img/screenshots/community/manual.jpg)

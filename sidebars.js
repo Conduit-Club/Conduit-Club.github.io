@@ -34,6 +34,7 @@ const sidebars = {
       collapsed: true,
       items: [
         'community/community-index',
+        'community/pcl-ce-shou',
         'community/shou-campus',
         'community/shou-freshman-manual',
         'community/what-to-eat',

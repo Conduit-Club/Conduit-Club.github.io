@@ -40,6 +40,18 @@ description: 潮涌核心社 Velocity、SMP、Create 与 SHOU 四服网络总览
   </a>
 </div>
 
+## 推荐连接地址
+
+当前从 Minecraft 客户端连接时，请优先使用 `shoumc.com` 下的三个服务器入口：
+
+| 服务器 | 推荐地址 | 进入后可用的跨服命令 |
+| --- | --- | --- |
+| SMP 生存服 | `smp.shoumc.com` | `/server smp` |
+| Create 创造建筑服 | `create.shoumc.com` | `/server create` |
+| SHOU 建筑展示服 | `shou.shoumc.com` | `/server shou` |
+
+连接服务器时请优先使用以上新入口。
+
 ## 连接关系
 
 | 层级 | 配置名称 | 作用 | 进入命令 |
@@ -51,7 +63,7 @@ description: 潮涌核心社 Velocity、SMP、Create 与 SHOU 四服网络总览
 
 :::warning 地址与权限
 
-后端连接由代理统一管理，不等同于客户端直连地址。公网域名、白名单、权限和开放时间以实际公告为准。
+后端连接由代理统一管理，不等同于客户端直连地址。以上是当前确认的公开入口；白名单、权限和开放时间以实际公告为准。
 
 :::
 
