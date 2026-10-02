@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.shoumc.com/servers/">服务器介绍</a> ·
+  <a href="https://www.shoumc.com/server/">服务器介绍</a> ·
   <a href="https://www.shoumc.com/community/">社团资源</a> ·
   <a href="https://www.shoumc.com/updates/">更新日志</a> ·
   <a href="https://map.shoumc.com/">在线地图</a>
