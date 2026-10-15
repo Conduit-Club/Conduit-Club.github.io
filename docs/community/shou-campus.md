@@ -4,22 +4,22 @@ slug: /community/shou-campus
 title: SHOU 校园还原工程
 sidebar_label: SHOU 校园还原工程
 sidebar_position: 2
-description: 上海海洋大学校园 Minecraft 还原作品与世界存档介绍。
+description: 上海海洋大学校园 Minecraft 还原作品与游戏内、在线地图参观入口。
 ---
 
 # SHOU 校园还原工程
 
-[SHOU-Campus-Recreation-in-MC](https://github.com/Conduit-Club/SHOU-Campus-Recreation-in-MC) 是上海海洋大学校园 Minecraft 还原项目的精简存档仓库，提供压缩后的世界存档、鸣谢和作品使用说明。
+SHOU 校园还原工程以 Minecraft 建筑记录上海海洋大学校园，可在 SHOU 建筑展示服中参观，也可通过 BlueMap 在线漫游。
 
 ## 项目信息
 
 | 项目 | 内容 |
 | --- | --- |
-| 类型 | Minecraft 建筑与世界存档 |
-| 仓库状态 | 组织协作仓库（Fork） |
-| 许可 | 仓库 README 标注为 CC BY-NC-SA 4.0 |
+| 类型 | Minecraft 校园建筑作品 |
+| 参观方式 | SHOU 建筑展示服、BlueMap 在线地图 |
+| 存档下载 | 截至 2026-10-15，尚无可核验的公开下载入口 |
 
-公开使用、转载或进行二次创作前，请先阅读仓库中的完整许可和使用规则。
+如需获取存档、转载或进行二次创作，请先向维护者确认可公开的版本与授权范围。
 
 ## 站内参观
 

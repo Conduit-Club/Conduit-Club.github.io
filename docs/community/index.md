@@ -4,28 +4,37 @@ slug: /community
 title: 社团资源
 sidebar_label: 社团资源总览
 sidebar_position: 1
-description: 潮涌核心社成员维护或创造的插件、服务与 Minecraft 作品总览。
+description: 潮涌核心社维护的校园网站、启动器、网络工具、插件与 Minecraft 作品总览。
 ---
 
 # 社团资源
 
-这里集中收录潮涌核心社成员维护、创造或在组织中协作保存的项目，包括公开作品，以及允许对外介绍的组织内部项目。每个项目都有独立详情页，便于后续继续补充版本、截图和使用说明。
+这里集中收录潮涌核心社维护的校园网站、Minecraft 工具和作品。每个项目都有独立详情页，可以查看用途、访问方式、源码与当前限制。
 
-## 站点入口迁移
+本页于 **2026-10-15** 根据[组织公开仓库](https://github.com/orgs/Conduit-Club/repositories?type=public)及线上页面核对。源码功能与线上开放范围可能不同，下载和使用时请结合项目说明。
 
-社团主站现在使用 [shoumc.com](https://shoumc.com/)，打开后会保留路径和参数并跳转到站点页面。[www.shoumc.com](https://www.shoumc.com/) 保留为官网副本。服务器连接请优先使用 `smp.shoumc.com`、`create.shoumc.com` 和 `shou.shoumc.com`。详见[2026.10.02 域名迁移记录](../updates/2026-10-02/)。
+## 校园网站与服务
 
-常用社团服务也已统一到新域名： [今天吃什么](https://eat.shoumc.com/)、[水专手册](https://manual.shoumc.com/)、[来选课](https://lxk.shoumc.com/)、[BlueMap 地图](https://map.shoumc.com/) 和 [Artalk 评论入口](https://comments.shoumc.com/)。各项目页面会继续说明具体用途和当前状态。
+| 项目 | 用途 | 在线入口 |
+| --- | --- | --- |
+| [社团官网与服务器档案](./club-website) | 四服介绍、命令、项目资源与服务器更新 | [官网](https://www.shoumc.com/) · [文档镜像](https://wiki.shoumc.com/) |
+| [水专手册（SHOU指北）](./shou-freshman-manual) | 校园生活、学习、办事信息与交互地图 | [manual.shoumc.com](https://manual.shoumc.com/) |
+| [今日海大吃什么](./what-to-eat) | 校园及周边餐饮、随机推荐与用餐分享 | [eat.shoumc.com](https://eat.shoumc.com/) |
+| [来选课（SHOU LXK）](./shou-laixk) | 课程、教师与同学点评查询 | [lxk.shoumc.com](https://lxk.shoumc.com/) |
+| [社团统一账号](./shou-auth) | 校园服务共用的登录与账号资料入口 | [auth.shoumc.com](https://auth.shoumc.com/) |
 
-## 项目列表
+## 客户端与网络工具
 
-- [PCL-CE-SHOU 社团启动器](./pcl-ce-shou)：正在开发的 PCL-CE 社团版启动器，提供下载入口与当前登录说明。
-- [SHOU 校园还原工程](./shou-campus)：Minecraft 校园建筑与世界存档。
-- [水专手册](./shou-freshman-manual)：校园生活与常用信息指南，[在线阅读](https://manual.shoumc.com/)。
-- [今天吃什么](./what-to-eat)：校园及周边餐饮、同学评价与投稿，[在线使用](https://eat.shoumc.com/)。
-- [来选课](./shou-laixk)：由其他维护者维护的课程与教师评价服务，[访问入口](https://lxk.shoumc.com/)；社团同时维护相关分析与归档资料。
+- [SHOU-PCL 社团启动器](./pcl-ce-shou)：基于 PCL-CE 独立维护的 Windows x64 启动器，提供账户与游戏实例管理、社团入口及更新提醒。
+- [SHOUConnect](./shou-connect)：面向海大校园网络访问的图形客户端，基于 EZ4Connect 等开源项目改编；组织仓库尚无公开发行包。
+
+## Minecraft 作品与社区工具
+
+- [SHOU 校园还原工程](./shou-campus)：Minecraft 校园建筑作品与在线漫游。
 - [Paper-YSM](./paper-ysm)：Paper 服务端的 Yes Steve Model 分发原型。
 - [Discord 娱乐机器人](./discord-bot)：Discord Bot、FastAPI 控制台与 Minecraft 聊天桥。
+
+配套入口：[BlueMap 在线地图](https://map.shoumc.com/) · [Artalk 评论入口](https://comments.shoumc.com/)。服务器连接与跨服命令见[服务器总览](../../server/)，域名迁移历史见[2026.10.02 更新记录](../../updates/2026-10-02/)。
 
 ## 提交项目
 

@@ -41,33 +41,20 @@
 | --- | --- | --- | --- |
 | [www.shoumc.com](https://www.shoumc.com/) | [wiki.shoumc.com](https://wiki.shoumc.com/) | [conduit-club.github.io](https://conduit-club.github.io/) | [Discord](https://discord.gg/knvDenYF5Y) |
 
-## 海大校园资源
+## 社团项目与网站
 
-### 水专手册
+| 项目 | 公开入口 | 源码 |
+| --- | --- | --- |
+| 水专手册 · SHOU指北 | [在线阅读](https://manual.shoumc.com/) | [SHOU-Online-Manual](https://github.com/Conduit-Club/SHOU-Online-Manual) |
+| 今日海大吃什么 | [餐饮指南](https://eat.shoumc.com/) | [SHOU-What-To-Eat](https://github.com/Conduit-Club/SHOU-What-To-Eat) |
+| 来选课 · SHOU LXK | [课程评价](https://lxk.shoumc.com/) | [SHOU-LXK](https://github.com/Conduit-Club/SHOU-LXK) |
+| 社团统一账号 | [账号中心](https://auth.shoumc.com/) | — |
+| SHOU-PCL 社团启动器 | [发行版下载](https://github.com/Conduit-Club/SHOU-PCL/releases/latest) | [SHOU-PCL](https://github.com/Conduit-Club/SHOU-PCL) |
+| SHOUConnect | [项目说明](https://www.shoumc.com/community/shou-connect/) | [SHOUConnect](https://github.com/Conduit-Club/SHOUConnect) |
+| Paper-YSM | [插件介绍](https://www.shoumc.com/community/paper-ysm/) | [YSM_Paper_Plugin](https://github.com/Conduit-Club/YSM_Paper_Plugin) |
+| Discord 娱乐机器人 | [项目介绍](https://www.shoumc.com/community/discord-bot/) | [Discord_Bot](https://github.com/Conduit-Club/Discord_Bot) |
 
-校园生活与学习资料，供新同学查阅，也由同学持续补充。
-
-[阅读手册](https://manual.shoumc.com/) · [项目仓库](https://github.com/Conduit-Club/SHOU-Online-Manual)
-
-[![水专手册在线页面](assets/img/screenshots/community/manual.jpg)](https://manual.shoumc.com/)
-
-### 今日海大吃什么
-
-查找校园与周边餐饮，浏览店铺与餐品，分享自己的用餐推荐。
-
-[今天吃什么](https://eat.shoumc.com/) · [项目仓库](https://github.com/Conduit-Club/what-to-eat-in-shou-today-done-right)
-
-[![今日海大吃什么在线页面](assets/img/screenshots/community/eat.jpg)](https://eat.shoumc.com/)
-
-### 来选课
-
-查询课程与教师评价。在线服务由其他维护者维护，社团提供访问入口与相关分析、归档资料；登录和注册进入原站认证。
-
-[查找课程](https://lxk.shoumc.com/) · [原站](https://lxk.aaron212.com/) · [相关资料仓库](https://github.com/Conduit-Club/StructureAnalysis-shou-laixk)
-
-[![来选课在线页面](assets/img/screenshots/community/laixk.jpg)](https://lxk.shoumc.com/)
-
-校园资源截图拍摄于 2026-10-02，内容以各网站当前页面为准。图片来源说明见 [图片索引](assets/img/README.md)。
+项目用途、维护状态、使用限制与公开页面实拍统一维护在[社团资源文档](https://www.shoumc.com/community/)。
 
 ---
 
