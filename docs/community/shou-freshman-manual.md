@@ -1,15 +1,15 @@
 ---
 id: shou-freshman-manual
 slug: /community/shou-freshman-manual
-title: 水专手册
-sidebar_label: 水专手册
+title: 水专手册 · SHOU指北
+sidebar_label: 水专手册 · SHOU指北
 sidebar_position: 3
 description: 面向上海海洋大学学生、教师与校友的校园生活手册，提供在线阅读与内容贡献入口。
 ---
 
-# 水专手册
+# 水专手册 · SHOU指北
 
-水专手册（SHOU Online Manual）面向上海海洋大学学生、教师与校友，整理校园学习、生活和常用服务信息。
+水专手册（SHOU Online Manual）面向上海海洋大学学生、教师与校友，整理校园学习、生活和常用服务信息。当前线上站点使用“SHOU指北”名称。
 
 - **在线阅读**：[manual.shoumc.com](https://manual.shoumc.com/)
 - **项目仓库**：[Conduit-Club/SHOU-Online-Manual](https://github.com/Conduit-Club/SHOU-Online-Manual)
@@ -20,9 +20,16 @@ description: 面向上海海洋大学学生、教师与校友的校园生活手�
 
 ![水专手册首页，展示栏目导航与校园常用入口](/img/screenshots/community/manual.jpg)
 
-*2026-10-02 在线页面实拍，内容以当前网站为准。*
+*2026-10-15 在线页面实拍，内容以当前网站为准。*
 
 手册已有公开在线版本，内容仍在迁移、核验与重建中。部分栏目暂为占位页，涉及学校制度、联系方式、流程和时间表的信息，请结合校方最新通知核实。
+
+## 常用内容
+
+- 新生指南、学习与发展、校园服务与办事入口。
+- 饮食、设施、交通、黄页与社团活动信息。
+- [校园地图](https://manual.shoumc.com/facilities/campus-map.html)：交互地图与校园参考图。
+- [贡献模板](https://manual.shoumc.com/site-help/contribution-template.html)：补充资料与纠错示例。
 
 ## 参与维护
 

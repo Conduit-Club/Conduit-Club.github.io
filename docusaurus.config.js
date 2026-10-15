@@ -129,16 +129,20 @@ const config = {
                 href: 'https://note.peteralbus.com/',
               },
               {
-                label: '水专手册',
+                label: '水专手册 · SHOU指北',
                 href: 'https://manual.shoumc.com/',
               },
               {
-                label: '今天吃什么',
+                label: '今日海大吃什么',
                 href: 'https://eat.shoumc.com/',
               },
               {
-                label: '来选课',
+                label: '来选课 · SHOU LXK',
                 href: 'https://lxk.shoumc.com/',
+              },
+              {
+                label: '社团统一账号',
+                href: 'https://auth.shoumc.com/',
               },
             ],
           },
