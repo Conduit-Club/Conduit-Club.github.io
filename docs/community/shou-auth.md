@@ -17,6 +17,6 @@ description: 潮涌核心社校园服务的统一登录、账号资料与使用�
 
 ## 使用范围
 
-这是校园网站的账号服务。Minecraft 启动器与服务器的登录方式，请查阅 [SHOU-PCL](../pcl-ce-shou/)和 [Velocity 登录与认证说明](../../servers/velocity/)。
+这是校园网站的账号服务。Minecraft 启动器与服务器的登录方式，请查阅 [SHOU-Launcher](../pcl-ce-shou/)和 [Velocity 登录与认证说明](../../servers/velocity/)。
 
 账号入口于 **2026-10-15** 核对，接入情况以各业务网站当前提示为准。

@@ -49,7 +49,7 @@
 | 今日海大吃什么 | [餐饮指南](https://eat.shoumc.com/) | [SHOU-What-To-Eat](https://github.com/Conduit-Club/SHOU-What-To-Eat) |
 | 来选课 · SHOU LXK | [课程评价](https://lxk.shoumc.com/) | [SHOU-LXK](https://github.com/Conduit-Club/SHOU-LXK) |
 | 社团统一账号 | [账号中心](https://auth.shoumc.com/) | — |
-| SHOU-PCL 社团启动器 | [发行版下载](https://github.com/Conduit-Club/SHOU-PCL/releases/latest) | [SHOU-PCL](https://github.com/Conduit-Club/SHOU-PCL) |
+| SHOU-Launcher 社团启动器 | [推荐 v1.4.0](https://github.com/Conduit-Club/SHOU-Launcher/releases/tag/v1.4.0) | [SHOU-Launcher](https://github.com/Conduit-Club/SHOU-Launcher) |
 | SHOUConnect | [项目说明](https://www.shoumc.com/community/shou-connect/) | [SHOUConnect](https://github.com/Conduit-Club/SHOUConnect) |
 | Paper-YSM | [插件介绍](https://www.shoumc.com/community/paper-ysm/) | [YSM_Paper_Plugin](https://github.com/Conduit-Club/YSM_Paper_Plugin) |
 | Discord 娱乐机器人 | [项目介绍](https://www.shoumc.com/community/discord-bot/) | [Discord_Bot](https://github.com/Conduit-Club/Discord_Bot) |
