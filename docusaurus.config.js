@@ -77,7 +77,7 @@ const config = {
       metadata: [
         {
           name: 'description',
-          content: '潮涌核心社 Minecraft 四服网络的中文服务器档案、命令说明与更新记录。',
+          content: '潮涌核心社 Minecraft 四服网络与 Terraria 社区服的中文服务器档案、命令说明与更新记录。',
         },
       ],
       navbar: {

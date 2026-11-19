@@ -4,7 +4,7 @@ slug: /
 title: 潮涌核心社服务器档案
 sidebar_label: 首页总览
 sidebar_position: 1
-description: 潮涌核心社 Minecraft 四服网络的中文服务器档案入口。
+description: 潮涌核心社 Minecraft 四服网络与 Terraria 社区服的中文服务器档案入口。
 hide_title: true
 hide_table_of_contents: true
 ---
@@ -60,7 +60,7 @@ hide_table_of_contents: true
 
 ## 我们在做什么
 
-服务器是社团成员共同游玩和创作的空间：有人在 SMP 生存服持续建设，有人在 Create 创造建筑服打磨作品，也有人把校园与记忆留在 SHOU 建筑展示服中。
+服务器是社团成员共同游玩和创作的空间：有人在 SMP 生存服持续建设，有人在 Create 创造建筑服打磨作品，也有人把校园与记忆留在 SHOU 建筑展示服中；想玩泰拉瑞亚的社友，现在也可以直接加入 [Terraria 社区服](./servers/tr/) 一起开荒。
 
 社团开发则服务于这些真实需求。我们维护 SHOU-Launcher 启动器、SHOUConnect 网络工具、服务器插件、Discord 机器人和网站文档，也为海大同学维护水专手册、餐饮指南与课程评价网站。
 
@@ -70,7 +70,7 @@ hide_table_of_contents: true
 
 社团主站现在使用 [shoumc.com](https://shoumc.com/)，打开后会保留路径和参数并 301 跳转到 `conduit-club.github.io`。[www.shoumc.com](https://www.shoumc.com/) 保留为 Cloudflare Pages 官网副本。
 
-连接服务器时请优先使用 `smp.shoumc.com`、`create.shoumc.com` 或 `shou.shoumc.com`。社团配套入口包括：[今日海大吃什么](https://eat.shoumc.com/)、[水专手册（SHOU指北）](https://manual.shoumc.com/)、[来选课（SHOU LXK）](https://lxk.shoumc.com/)、[社团统一账号](https://auth.shoumc.com/)和 [BlueMap 在线地图](https://map.shoumc.com/)；评论服务可打开 [Artalk 评论入口](https://comments.shoumc.com/)。项目介绍与源码见[社团资源](./community/)，域名迁移历史见[2026.10.02 更新记录](./updates/2026-10-02/)。
+连接 Minecraft 服务器请优先使用 `smp.shoumc.com`、`create.shoumc.com` 或 `shou.shoumc.com`；加入 Terraria 社区服直接填 `tr.shoumc.com`、端口 `7777`（详见 [Terraria 社区服说明](./servers/tr/)）。社团配套入口包括：[今日海大吃什么](https://eat.shoumc.com/)、[水专手册（SHOU指北）](https://manual.shoumc.com/)、[来选课（SHOU LXK）](https://lxk.shoumc.com/)、[社团统一账号](https://auth.shoumc.com/)和 [BlueMap 在线地图](https://map.shoumc.com/)；评论服务可打开 [Artalk 评论入口](https://comments.shoumc.com/)。项目介绍与源码见[社团资源](./community/)，域名迁移历史见[2026.10.02 更新记录](./updates/2026-10-02/)。
 
 ## 从这里开始
 

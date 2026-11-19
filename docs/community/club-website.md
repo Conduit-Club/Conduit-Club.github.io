@@ -7,7 +7,7 @@ description: 潮涌核心社 Docusaurus 中文站点、公开访问入口与内�
 
 # 社团官网与服务器档案
 
-本站是潮涌核心社维护的 Minecraft 中文文档站，使用 Docusaurus，集中记录四服网络、玩家命令、社团项目与已确认的服务器更新。
+本站是潮涌核心社维护的中文文档站，使用 Docusaurus，集中记录 Minecraft 四服网络、Terraria 社区服、玩家命令、社团项目与已确认的更新公告。
 
 ## 公开入口
 
@@ -20,7 +20,7 @@ description: 潮涌核心社 Docusaurus 中文站点、公开访问入口与内�
 
 ## 可以查阅什么
 
-- [服务器总览](../../server/)与 Velocity、SMP、Create、SHOU 各服详情。
+- [服务器总览](../../server/)与 Velocity、SMP、Create、SHOU、Terraria 各服详情。
 - [社团资源](../)：校园网站、客户端、插件与作品。
 - [服务器更新日志](../../updates/)：已确认的公告与历史变更。
 - [BlueMap 在线地图](https://map.shoumc.com/)：浏览已开放的世界地图。

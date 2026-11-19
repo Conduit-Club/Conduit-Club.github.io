@@ -13,13 +13,13 @@ description: 潮涌核心社维护的校园网站、启动器、网络工具、�
 
 本页于 **2026-10-15** 根据[组织公开仓库](https://github.com/orgs/Conduit-Club/repositories?type=public)及线上页面核对。源码功能与线上开放范围可能不同，下载和使用时请结合项目说明。
 
-启动器条目于 **2026-10-26** 按 v1.4.0 正式发行说明及运营者建议补充更新。
+启动器条目于 **2026-11-19** 按 v1.5.0 正式版与 v1.6.2 预发布版发行说明补充更新。
 
 ## 校园网站与服务
 
 | 项目 | 用途 | 在线入口 |
 | --- | --- | --- |
-| [社团官网与服务器档案](./club-website) | 四服介绍、命令、项目资源与服务器更新 | [官网](https://www.shoumc.com/) · [文档镜像](https://wiki.shoumc.com/) |
+| [社团官网与服务器档案](./club-website) | 游戏服务器介绍、命令、项目资源与更新记录 | [官网](https://www.shoumc.com/) · [文档镜像](https://wiki.shoumc.com/) |
 | [水专手册（SHOU指北）](./shou-freshman-manual) | 校园生活、学习、办事信息与交互地图 | [manual.shoumc.com](https://manual.shoumc.com/) |
 | [今日海大吃什么](./what-to-eat) | 校园及周边餐饮、随机推荐与用餐分享 | [eat.shoumc.com](https://eat.shoumc.com/) |
 | [来选课（SHOU LXK）](./shou-laixk) | 课程、教师与同学点评查询 | [lxk.shoumc.com](https://lxk.shoumc.com/) |
@@ -27,7 +27,7 @@ description: 潮涌核心社维护的校园网站、启动器、网络工具、�
 
 ## 客户端与网络工具
 
-- [SHOU-Launcher 社团启动器](./pcl-ce-shou)：社团独立维护的 Windows x64 启动器，当前优先推荐 **v1.4.0**，并使用社团源下载游戏资源；提供账户、游戏实例与社团入口管理。
+- [SHOU-Launcher 社团启动器](./pcl-ce-shou)：社团独立维护的 Minecraft 启动器，提供 **v1.5.0**（Windows x64 正式版）和 **v1.6.2**（Windows x64 / Windows ARM64 / Apple 芯片 Mac 预发布版），支持社团源下载、整合包拖入与实例管理。
 - [SHOUConnect](./shou-connect)：面向海大校园网络访问的图形客户端，基于 EZ4Connect 等开源项目改编；组织仓库尚无公开发行包。
 
 ## Minecraft 作品与社区工具

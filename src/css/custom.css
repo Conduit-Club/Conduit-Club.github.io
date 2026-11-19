@@ -1344,6 +1344,19 @@ body::before {
   background: var(--cc-panel);
 }
 
+.cc-server-card--wide {
+  grid-column: 1 / -1;
+  min-height: 0;
+}
+
+.cc-server-card--wide h3 {
+  margin-top: 1.25rem;
+}
+
+.cc-server-card--wide p {
+  min-height: 0;
+}
+
 .cc-server-card:hover {
   border-color: var(--cc-acid);
   background: var(--cc-rose-glaze);
