@@ -26,6 +26,7 @@ const sidebars = {
         'servers/smp',
         'servers/create',
         'servers/shou',
+        'servers/tr',
       ],
     },
     {
