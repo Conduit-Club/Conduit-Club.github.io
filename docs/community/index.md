@@ -13,8 +13,6 @@ description: 潮涌核心社维护的校园网站、启动器、网络工具、�
 
 本页于 **2026-10-15** 根据[组织公开仓库](https://github.com/orgs/Conduit-Club/repositories?type=public)及线上页面核对。源码功能与线上开放范围可能不同，下载和使用时请结合项目说明。
 
-启动器条目于 **2026-11-19** 按 v1.5.0 正式版与 v1.6.2 预发布版发行说明补充更新。
-
 ## 校园网站与服务
 
 | 项目 | 用途 | 在线入口 |
@@ -27,7 +25,7 @@ description: 潮涌核心社维护的校园网站、启动器、网络工具、�
 
 ## 客户端与网络工具
 
-- [SHOU-Launcher 社团启动器](./pcl-ce-shou)：社团独立维护的 Minecraft 启动器，提供 **v1.5.0**（Windows x64 正式版）和 **v1.6.2**（Windows x64 / Windows ARM64 / Apple 芯片 Mac 预发布版），支持社团源下载、整合包拖入与实例管理。
+- [SHOU-Launcher 社团启动器](./pcl-ce-shou)：社团独立维护的 Minecraft 启动器。**v1.6.4 正式版**适用于 Windows x64、Windows ARM64 和 Apple 芯片 Mac，支持社团源下载、整合包导入与导出、实例管理。
 - [SHOUConnect](./shou-connect)：面向海大校园网络访问的图形客户端，基于 EZ4Connect 等开源项目改编；组织仓库尚无公开发行包。
 
 ## Minecraft 作品与社区工具
